@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+ul{
+    padding: 0px;
+    min-height: 200vh;
+}
+body{
+    background-color: rgb(158,103,55);
+}
+.first,.second,.third,.fourth,.last{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    min-height: 40vh;
+    font-size: 2em;
+    padding: 20vh;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.first{
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+
+}
+.last{
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+.second{
+    background-image: url(images/pizza.jpg);
+}
+.third{
+    background-image: url(images/burger.jpg);
+    background-size: cover;
+}
+.fourth{
+    background-image: url(images/sandwhich.jpg );
+    background-size: cover;
+}
+.last{
+    background-image: url(images/shakes.jpg);
+    background-size: cover;
+}
